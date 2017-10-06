@@ -1,0 +1,42 @@
+.pressed-box{
+     background-color: #353639;
+     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+     -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+         -ms-border-radius: 10px;
+          -o-border-radius: 10px;
+             border-radius: 10px;
+     -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+             background-clip: padding-box;
+ }
+
+ /* Social Icons */
+ .social{
+     text-align: right;
+     padding: 0 20px 4px;
+     position: absolute;
+     right: 1em;
+     top: 0;
+     -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+         -ms-border-radius: 0 0 10px 10px;
+          -o-border-radius: 0 0 10px 10px;
+             border-radius: 0 0 10px 10px;
+     }
+ .social a{
+     display: inline-block;
+     *display: inline; /* IE7 inline-block hack */
+     *zoom: 1;
+     margin-right: 10px;
+     font-size: 1.1em;
+     color: #fff;
+     }
+ .social a:hover{
+     color: #666;
+     }
+ .social a:last-child{
+     margin: 0;
+     }
+     
+[class^="icon-"],[class*=" icon-"]{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0}.icon-facebook-sign:before{content:"\f082"}.icon-facebook:before{content:"\f09a"}.icon-google-plus-sign:before{content:"\f0d4"}.icon-google-plus:before{content:"\f0d5"}
